@@ -60,6 +60,7 @@ export default function Command() {
           key={index}
           icon={item.icon}
           title={item.title}
+          keywords={item.keywords}
           subtitle={item.subtitle}
           accessories={[{ icon: Icon.CopyClipboard }]}
           actions={
